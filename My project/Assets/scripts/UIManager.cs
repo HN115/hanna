@@ -29,6 +29,12 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     TextMeshProUGUI _text;
+
+    int descld = 0; // 왜 0부터인가? 인덱스랑 변수의 초기값을 맞춰주는게 좋다.
+
+    
+
+
     private void Start()
     {
         
